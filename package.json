@@ -2,7 +2,7 @@
   "name": "ml-web-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-prod": "NODE_ENV=production node src/app.js",
@@ -13,6 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^21.3.9",
-    "@tensorflow/tfjs-node": "^4.20.0"
+    "@tensorflow/tfjs-node": "^4.13.0"
   }
 }
